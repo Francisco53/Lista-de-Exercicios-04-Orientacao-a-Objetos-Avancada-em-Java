@@ -1,8 +1,8 @@
+package model.abstractions;
 
-package oo.avancada;
+import model.interfaces.AnimalIF;
 
-
-public abstract class AnimalAB implements AnimalIF{
+public abstract class AnimalAB implements AnimalIF {
     
     @Override
     public abstract void comer();

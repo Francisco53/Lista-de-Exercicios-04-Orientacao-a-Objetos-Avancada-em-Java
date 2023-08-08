@@ -1,6 +1,4 @@
-
-package oo.avancada;
-
+package model.interfaces;
 
 public interface AnimalIF {
     

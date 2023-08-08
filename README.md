@@ -1,11 +1,14 @@
-<h2 align="center">SQUAD1</h2>
+<h2 align="center">SQUAD 1</h2>
 
-Intregrantes: Francisco, Bruno, Josué e Juvenal.
+## Intregrantes:
+- Francisco
+- Bruno
+- Josué
+- Juvenal
 
-Distribuição das questões:
+## Distribuição das questões:
 
-Francisco: [1 e 2]
-Bruno: [3]
-Josué: [4]
-Juvenal[5]
-
+Francisco: [1 e 2]  
+Bruno: [3]  
+Josué: [4]  
+Juvenal: [5]
