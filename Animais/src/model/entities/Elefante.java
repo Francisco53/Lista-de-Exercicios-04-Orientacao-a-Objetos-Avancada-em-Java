@@ -1,20 +1,15 @@
 package model.entities;
 
-import model.abstractions.AnimalMarinhoAB;
+import model.abstractions.AnimalAB;
 
-public class Peixe extends AnimalMarinhoAB {
+public class Elefante extends AnimalAB {
 
-	private double distanciaNadada = 0.0f;
 	private double comidaIngerida = 0.0f;
 	private double caminhoPercorrido = 0.0f;
 	private double horasDormidas = 0.0f;
 	
-	public Peixe(String nome, String tipoAnimal, int idade, String habitat, int quantidadePatas, double altura, double peso) {
+	public Elefante(String nome, String tipoAnimal, int idade, String habitat, int quantidadePatas, double altura, double peso) {
 		super(nome, tipoAnimal, idade, habitat, quantidadePatas, altura, peso);
-    }
-	
-	public double getDistanciaNadada() {
-		return distanciaNadada;
 	}
 	
 	public double getComidaIngerida() {
@@ -29,12 +24,7 @@ public class Peixe extends AnimalMarinhoAB {
 	public double getHorasDormidas() {
 		return horasDormidas;
 	}
-	
-	@Override
-	public void nadar(double distancia) {
-		distanciaNadada += distancia;
-	}
-	
+
 	@Override
 	public void comer(double quantidade) {
 		comidaIngerida += quantidade;

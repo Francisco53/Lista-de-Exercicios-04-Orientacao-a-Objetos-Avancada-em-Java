@@ -2,8 +2,7 @@ package model.interfaces;
 
 public interface AnimalIF {
     
-    void comer();
-    void moverse();
-    void dormir();
-    
+    void comer(double quantidade);
+    void moverse(double distancia);
+    void dormir(double horas);
 }
